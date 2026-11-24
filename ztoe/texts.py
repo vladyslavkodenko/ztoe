@@ -1,0 +1,38 @@
+DESCRIPTION = "Графік погодинних відключень Житомиробленерго"
+HELP_QUEUES = "підчерги, напр.: 1.2 3.1"
+HELP_ALL = "усі підчерги"
+HELP_SAVE = "запам'ятати підчерги"
+HELP_RESET = "забути збережені підчерги"
+
+QUEUES_SAVED = "Збережено в {path}"
+QUEUES_FORGOTTEN = "Збережені підчерги видалено."
+INVALID_QUEUES = "невірний номер підчерги: {queues} (приклад: 1.2)"
+SAVE_NEEDS_QUEUES = "вкажіть підчерги, напр.: ztoe -s 1.1 1.2"
+FETCH_FAILED = "Не вдалося отримати {url}: {error}"
+FILE_FAILED = "Не вдалося прочитати або записати {path}: {error}"
+
+UPDATED = "Оновлено {updated}"
+UNKNOWN = "невідомо"
+TODAY = "Сьогодні"
+TOMORROW = "Завтра"
+TOMORROW_MISSING = "На завтра графік ще не опубліковано"
+
+TABLE_HEADER = ("Підчерга", "Відключення", "Год", "Світло зараз")
+NOT_IN_TABLE = "немає в таблиці"
+NO_OUTAGES = "немає"
+
+LIGHT_ON = "є"
+LIGHT_OFF = "немає"
+UNTIL_END = "{light} до кінця графіка"
+UNTIL_CHANGE = "{light} до {time}, ще {left}"
+TOMORROW_AT = "завтра {time}"
+MINUTES = "{minutes} хв"
+HOURS_AND_MINUTES = "{hours}:{minutes:02d}"
+CLOCK_TIME = "{hours:02d}:{minutes:02d}"
+TIME_RANGE = "{start}-{end}"
+LIST_SEPARATOR = ", "
+
+SITE_LIMITS_MARK = "Укренерго"
+SITE_LIMITS_TITLE_MARK = "На "
+SITE_LIMITS_PERIOD_PREFIX = "з "
+SITE_UPDATED_PREFIX = "Дата оновлення інформації -"
